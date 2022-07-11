@@ -1,4 +1,28 @@
 local M = {
+    blacklist_ft = {
+        "ctrlspace",
+        "packer",
+        "undotree",
+        "diff",
+        "Outline",
+        "NvimTree",
+        "LvimHelper",
+        "floaterm",
+        "toggleterm",
+        "Trouble",
+        "dashboard",
+        "vista",
+        "spectre_panel",
+        "DiffviewFiles",
+        "flutterToolsOutline",
+        "log",
+        "qf",
+        "dapui_scopes",
+        "dapui_breakpoints",
+        "dapui_stacks",
+        "dapui_watches",
+        "calendar",
+    },
     icons = {
         [1] = " ", -- File
         [2] = " ", -- Module
